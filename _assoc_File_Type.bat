@@ -7,7 +7,7 @@ set "__APP_PATH_SEARCH=%~dp0..\..\"
 set "OUTPUT_file=_Search_PATH_output.txt"
 set "ICON_file_Path=%cd%\_ico"
 rem --------------------------------------------------------------------------------
-rem УДАЛЯЕМЫЕ ПРОГРАММЫ - нужно найти их ProgID KMPlayer.jpg
+rem УДАЛЯЕМЫЕ ПРОГРАММЫ - нужно найти их ProgID KMPlayer.exe
 set "CLEAN_SEARCH_APP="KMPlayer" "Imagine" "mplayerc" "XMPlay" "PotPlayerMini64" "VLC" "Honeyview" "nomacs" "ImageGlass.AssocFile" "MicrosoftEdgeUpdate""
 set "REG_KEY="HKEY_CLASSES_ROOT" "HKEY_CURRENT_USER\SOFTWARE" "HKEY_LOCAL_MACHINE\SOFTWARE\Classes" "HKEY_CURRENT_USER\SOFTWARE\Classes""
 
